@@ -10,8 +10,8 @@ import style from './page.module.css'
         <h1 className={style.catTile}>{params.category}</h1>
         <div className={style.item}>
           <div className={style.content}>
-            <h1 className={style.test}>test</h1>
-            <p className={style.desc}>desc</p>
+            <h1 className={style.test}>test 12312312iojiojioqwe</h1>
+            <p className={style.desc}>desc <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illum, laudantium veniam incidunt corrupti rerum eius alias. Adipisci hic laudantium amet nesciunt nostrum illum aperiam, qui ducimus omnis impedit doloremque?</p>
             <Button text="/See More" url="#" />
           </div>
           <div className={style.imageContainer}>
