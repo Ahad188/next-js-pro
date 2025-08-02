@@ -6,7 +6,7 @@ import styles from './page.module.css'
 const BlogPage = () => {
     return (
         <div className={styles.mainContainer}>
-            <Link href='/testID' className={styles.container}>
+            <Link href='/blog/id' className={styles.container}>
                 <div className={styles.imgContainer}>
                     <Image
                     src='/illustration.png'
@@ -22,7 +22,7 @@ const BlogPage = () => {
                     <p></p>
                 </div>
             </Link>
-            <Link href='/testID' className={styles.container}>
+            <Link href='/blog/id' className={styles.container}>
                 <div className={styles.imgContainer}>
                     <Image
                     src='/illustration.png'
