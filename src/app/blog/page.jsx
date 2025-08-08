@@ -11,6 +11,7 @@ async function getData() {
 
 export default async function BlogPage() {
   const data = await getData();
+//   console.log(data)
   return (
     <div className={styles.mainContainer}>
       {data.map((item) => (
