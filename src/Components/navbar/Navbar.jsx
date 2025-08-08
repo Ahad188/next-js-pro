@@ -1,12 +1,14 @@
  'use client'
 import style from '@/Components/navbar/navbar.module.css'
 import Link from "next/link";
+import DarkMode from '../DarkMode/DarkMode';
 
 const Navbar = () => {
     return (
         <div className={style.container}>
             <Link className={style.logo} href='/'>Aaa</Link>
             <div className={style.links}>
+                <DarkMode/>
                 <Link className={style.link} href="/">Home</Link>
                 <Link className={style.link} href="/portfolio">Portfolio</Link>
                 <Link className={style.link} href="/blog">Blog</Link>
